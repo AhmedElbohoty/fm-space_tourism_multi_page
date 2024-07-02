@@ -1,0 +1,79 @@
+.heading-xl {
+  font-family: var(--heading-xl-ff);
+  font-size: var(--heading-xl-fs);
+  font-weight: var(--heading-xl-fw);
+  line-height: var(--heading-xl-lh);
+  letter-spacing: var(--heading-xl-ls);
+}
+
+.heading-l {
+  font-family: var(--heading-l-ff);
+  font-size: var(--heading-l-fs);
+  font-weight: var(--heading-l-fw);
+  line-height: var(--heading-l-lh);
+  letter-spacing: var(--heading-l-ls);
+}
+
+.heading-m {
+  font-family: var(--heading-m-ff);
+  font-size: var(--heading-m-fs);
+  font-weight: var(--heading-m-fw);
+  line-height: var(--heading-m-lh);
+  letter-spacing: var(--heading-m-ls);
+}
+
+.heading-s {
+  font-family: var(--heading-s-ff);
+  font-size: var(--heading-s-fs);
+  font-weight: var(--heading-s-fw);
+  line-height: var(--heading-s-lh);
+  letter-spacing: var(--heading-s-ls);
+}
+
+.heading-xs {
+  font-family: var(--heading-xs-ff);
+  font-size: var(--heading-xs-fs);
+  font-weight: var(--heading-xs-fw);
+  line-height: var(--heading-xs-lh);
+  letter-spacing: var(--heading-xs-ls);
+}
+
+.subheading-l {
+  font-family: var(--subheading-l-ff);
+  font-size: var(--subheading-l-fs);
+  font-weight: var(--subheading-l-fw);
+  line-height: var(--subheading-l-lh);
+  letter-spacing: var(--subheading-l-ls);
+}
+
+.subheading-s {
+  font-family: var(--subheading-s-ff);
+  font-size: var(--subheading-s-fs);
+  font-weight: var(--subheading-s-fw);
+  line-height: var(--subheading-s-lh);
+  letter-spacing: var(--subheading-s-ls);
+}
+
+.nav-text {
+  font-family: var(--nav-text-ff);
+  font-size: var(--nav-text-fs);
+  font-weight: var(--nav-text-fw);
+  line-height: var(--nav-text-lh);
+  letter-spacing: var(--nav-text-ls);
+}
+
+.nav-text-bold {
+  font-family: var(--nav-text-b-ff);
+  font-size: var(--nav-text-b-fs);
+  font-weight: var(--nav-text-b-fw);
+  line-height: var(--nav-text-b-lh);
+  letter-spacing: var(--nav-text-b-ls);
+}
+
+.body-text {
+  font-family: var(--body-text-ff);
+  font-size: var(--body-text-fs);
+  font-weight: var(--body-text-fw);
+  line-height: var(--body-text-lh);
+  letter-spacing: var(--body-text-ls);
+}

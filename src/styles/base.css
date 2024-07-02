@@ -1,4 +1,78 @@
 :root {
+  /* Colors */
+  --very-dark-navy: #0b0d17;
+  --light-blue: #d0d6f9;
+  --white: #ffffff;
+
+  /* Heading XL */
+  --heading-xl-ff: Bellefair;
+  --heading-xl-fs: 144px;
+  --heading-xl-fw: 400;
+  --heading-xl-lh: normal;
+  --heading-xl-ls: 0;
+
+  /* Heading L */
+  --heading-l-ff: Bellefair;
+  --heading-l-fs: 96px;
+  --heading-l-fw: 400;
+  --heading-l-lh: normal;
+  --heading-l-ls: 0;
+
+  /* Heading M */
+  --heading-m-ff: Bellefair;
+  --heading-m-fs: 56px;
+  --heading-m-fw: 400;
+  --heading-m-lh: normal;
+  --heading-m-ls: 0;
+
+  /* Heading S */
+  --heading-s-ff: Bellefair;
+  --heading-s-fs: 32px;
+  --heading-s-fw: 400;
+  --heading-s-lh: normal;
+  --heading-s-ls: 0;
+
+  /* Heading XS */
+  --heading-xs-ff: Bellefair;
+  --heading-xs-fs: 28px;
+  --heading-xs-fw: 400;
+  --heading-xs-lh: normal;
+  --heading-xs-ls: 4px;
+
+  /* Subheading L */
+  --subheading-l-ff: Bellefair;
+  --subheading-l-fs: 28px;
+  --subheading-l-fw: 400;
+  --subheading-l-lh: normal;
+  --subheading-l-ls: 0;
+
+  /* Subheading S */
+  --subheading-s-ff: "Barlow Condensed";
+  --subheading-s-fs: 14px;
+  --subheading-s-fw: 400;
+  --subheading-s-lh: normal;
+  --subheading-s-ls: 2px;
+
+  /* Nav text */
+  --nav-text-ff: "Barlow Condensed";
+  --nav-text-fs: 16px;
+  --nav-text-fw: 400;
+  --nav-text-lh: normal;
+  --nav-text-ls: 2px;
+
+  /* Nav bold text */
+  --nav-text-b-ff: "Barlow Condensed";
+  --nav-text-b-fs: 16px;
+  --nav-text-b-fw: 700;
+  --nav-text-b-lh: normal;
+  --nav-text-b-ls: 2px;
+
+  /* Body text */
+  --body-text-ff: Barlow;
+  --body-text-fs: 18px;
+  --body-text-fw: 400;
+  --body-text-lh: 180%;
+  --body-text-ls: 0px;
 }
 
 * {
