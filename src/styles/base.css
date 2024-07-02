@@ -1,0 +1,89 @@
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: sans-serif, Helvetica, Arial;
+  font-variant-ligatures: none;
+  font-feature-settings: unset;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+textarea {
+  border: none;
+  font-size: 100%;
+  background-color: transparent;
+  font-family: inherit;
+}
+
+button:focus {
+  outline: none;
+}
+
+svg {
+  display: block;
+}
+
+input {
+  outline: none;
+  font-family: inherit;
+  background-color: transparent;
+}
+
+input::placeholder {
+  font-family: inherit;
+}
+
+h2 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+textarea {
+  outline: none;
+  resize: none;
+}
+
+li {
+  list-style: none;
+  list-style-position: inside;
+}
+
+dialog {
+  border: none;
+  background-color: transparent;
+  max-width: unset;
+  max-height: unset;
+}
+
+dialog::backdrop {
+  background-color: transparent;
+}
+
+[popover] {
+  contain: layout style;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  overflow: visible;
+}
+
+.App {
+  min-width: 1440px;
+}
