@@ -25,6 +25,7 @@ export default defineConfig({
       components: path.resolve(__dirname, "./src/components"),
       pages: path.resolve(__dirname, "./src/pages"),
       contexts: path.resolve(__dirname, "./src/contexts"),
+      services: path.resolve(__dirname, "./src/services"),
       src: path.resolve(__dirname, "./src"),
     },
   },

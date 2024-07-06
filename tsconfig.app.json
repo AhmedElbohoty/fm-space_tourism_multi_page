@@ -30,6 +30,7 @@
       "pages/*": ["./src/pages/*"],
       "styles/*": ["./src/styles/*"],
       "contexts/*": ["./src/contexts/*"],
+      "services/*": ["./src/services/*"],
       "src/*": ["./src/*"]
     }
   },

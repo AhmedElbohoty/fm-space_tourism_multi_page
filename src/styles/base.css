@@ -4,6 +4,9 @@
   --light-blue: #d0d6f9;
   --white: #ffffff;
 
+  --trans-timing-func: ease-in-out;
+  --trans-duration: 400ms;
+
   /* Heading XL */
   --heading-xl-ff: Bellefair;
   --heading-xl-fs: 144px;

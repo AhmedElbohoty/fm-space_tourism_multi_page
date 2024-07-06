@@ -1,0 +1,23 @@
+.homepage {
+  width: 100%;
+  height: 100%;
+  background-image: url("/src//assets/home/background-home-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--very-dark-navy);
+  background-position: center;
+}
+
+/* Medium */
+@media screen and (max-width: 1439px) {
+  .homepage {
+    background-image: url("/src//assets/home/background-home-tablet.jpg");
+  }
+}
+
+/* Small */
+@media screen and (max-width: 767px) {
+  .homepage {
+    background-image: url("/src//assets/home/background-home-mobile.jpg");
+  }
+}

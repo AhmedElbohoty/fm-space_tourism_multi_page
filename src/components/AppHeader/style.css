@@ -1,0 +1,80 @@
+.appheader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 136px;
+  display: flex;
+  align-items: flex-end;
+}
+
+/* #region logo */
+.appheader-logo-cont {
+  position: absolute;
+  left: 0;
+  bottom: 24px;
+  width: calc(50% + 16px);
+  height: 48px;
+  padding-left: 64px;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+
+.appheader-logo-cont .svg-logo {
+  width: 48px;
+  height: 48px;
+}
+/* #endregion logo */
+
+.appheader-logo-line {
+  display: block;
+  flex: 1;
+  height: 1px;
+  margin-left: 64px;
+  background-color: var(--white);
+  opacity: 0.25;
+}
+
+/* Medium */
+@media screen and (max-width: 1439px) {
+  .appheader {
+    height: 96px;
+  }
+
+  .appheader-logo-cont {
+    position: relative;
+    bottom: 0;
+    width: unset;
+    height: 100%;
+    padding-left: 40px;
+  }
+
+  .appheader-logo-line {
+    position: absolute;
+    display: none;
+    opacity: 0;
+  }
+}
+
+/* Small */
+@media screen and (max-width: 767px) {
+  .appheader {
+    height: 88px;
+    align-items: center;
+  }
+
+  .appheader-logo-cont {
+    position: relative;
+    bottom: 0;
+    flex: 1;
+    width: unset;
+    height: 100%;
+    padding-left: 24px;
+  }
+
+  .appheader-logo-cont .svg-logo {
+    width: 40px;
+    height: 40px;
+  }
+}
