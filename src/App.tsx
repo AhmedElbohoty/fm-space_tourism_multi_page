@@ -3,6 +3,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import AppPage from "pages/AppPage";
 
 import "styles/base.css";
+import "styles/scrollbar.css";
 import "styles/typography.css";
 
 const router = createBrowserRouter([{ path: "*", element: <AppPage /> }]);

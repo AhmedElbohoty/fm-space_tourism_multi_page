@@ -1,12 +1,21 @@
 import { ReactNode } from "react";
-import { OverlayScrollbarsComponent } from "overlayscrollbars-react";
+import {
+  OverlayScrollbarsComponent,
+  OverlayScrollbarsComponentProps,
+} from "overlayscrollbars-react";
 
-interface ScrollbarProps {
+import "overlayscrollbars/overlayscrollbars.css";
+
+interface ScrollbarProps extends OverlayScrollbarsComponentProps {
   children: ReactNode;
 }
 
-function Scrollbar({ children }: ScrollbarProps) {
-  return <OverlayScrollbarsComponent>{children}</OverlayScrollbarsComponent>;
+function Scrollbar({ children, ...props }: ScrollbarProps) {
+  return (
+    <OverlayScrollbarsComponent {...props}>
+      {children}
+    </OverlayScrollbarsComponent>
+  );
 }
 
 export default Scrollbar;
