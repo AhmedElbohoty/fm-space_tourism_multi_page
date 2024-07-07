@@ -62,18 +62,18 @@
 }
 
 .navmenu-link-index {
-  font-family: var(--nav-text-b-ff);
-  font-size: var(--nav-text-b-fs);
-  font-weight: var(--nav-text-b-fw);
-  line-height: var(--nav-text-b-lh);
-  letter-spacing: var(--nav-text-b-ls);
+  font-family: var(--desk_nav-text-b-ff);
+  font-size: var(--desk_nav-text-b-fs);
+  font-weight: var(--desk_nav-text-b-fw);
+  line-height: var(--desk_nav-text-b-lh);
+  letter-spacing: var(--desk_nav-text-b-ls);
 }
 
 .navmenu-link-label {
-  font-family: var(--nav-text-ff);
-  font-size: var(--nav-text-fs);
-  font-weight: var(--nav-text-fw);
-  line-height: var(--nav-text-lh);
-  letter-spacing: var(--nav-text-ls);
+  font-family: var(--desk_nav-text-ff);
+  font-size: var(--desk_nav-text-fs);
+  font-weight: var(--desk_nav-text-fw);
+  line-height: var(--desk_nav-text-lh);
+  letter-spacing: var(--desk_nav-text-ls);
 }
 /* #endregion link */

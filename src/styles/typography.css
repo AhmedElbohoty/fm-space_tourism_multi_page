@@ -1,79 +1,161 @@
-.heading-xl {
-  font-family: var(--heading-xl-ff);
-  font-size: var(--heading-xl-fs);
-  font-weight: var(--heading-xl-fw);
-  line-height: var(--heading-xl-lh);
-  letter-spacing: var(--heading-xl-ls);
-}
+:root {
+  /* #region Desktop */
+  /* Desktop - Heading XL */
+  --desk_heading-xl-ff: Bellefair;
+  --desk_heading-xl-fs: 144px;
+  --desk_heading-xl-fw: 400;
+  --desk_heading-xl-lh: auto;
+  --desk_heading-xl-ls: 0;
 
-.heading-l {
-  font-family: var(--heading-l-ff);
-  font-size: var(--heading-l-fs);
-  font-weight: var(--heading-l-fw);
-  line-height: var(--heading-l-lh);
-  letter-spacing: var(--heading-l-ls);
-}
+  /* Desktop - Heading L */
+  --desk_heading-l-ff: Bellefair;
+  --desk_heading-l-fs: 96px;
+  --desk_heading-l-fw: 400;
+  --desk_heading-l-lh: auto;
+  --desk_heading-l-ls: 0;
 
-.heading-m {
-  font-family: var(--heading-m-ff);
-  font-size: var(--heading-m-fs);
-  font-weight: var(--heading-m-fw);
-  line-height: var(--heading-m-lh);
-  letter-spacing: var(--heading-m-ls);
-}
+  /* Desktop - Heading M */
+  --desk_heading-m-ff: Bellefair;
+  --desk_heading-m-fs: 56px;
+  --desk_heading-m-fw: 400;
+  --desk_heading-m-lh: auto;
+  --desk_heading-m-ls: 0;
 
-.heading-s {
-  font-family: var(--heading-s-ff);
-  font-size: var(--heading-s-fs);
-  font-weight: var(--heading-s-fw);
-  line-height: var(--heading-s-lh);
-  letter-spacing: var(--heading-s-ls);
-}
+  /* Desktop - Heading S */
+  --desk_heading-s-ff: Bellefair;
+  --desk_heading-s-fs: 32px;
+  --desk_heading-s-fw: 400;
+  --desk_heading-s-lh: auto;
+  --desk_heading-s-ls: 0;
 
-.heading-xs {
-  font-family: var(--heading-xs-ff);
-  font-size: var(--heading-xs-fs);
-  font-weight: var(--heading-xs-fw);
-  line-height: var(--heading-xs-lh);
-  letter-spacing: var(--heading-xs-ls);
-}
+  /* Desktop - Heading XS */
+  --desk_heading-xs-ff: "Barlow Condensed";
+  --desk_heading-xs-fs: 28px;
+  --desk_heading-xs-fw: 400;
+  --desk_heading-xs-lh: auto;
+  --desk_heading-xs-ls: 4px;
 
-.subheading-l {
-  font-family: var(--subheading-l-ff);
-  font-size: var(--subheading-l-fs);
-  font-weight: var(--subheading-l-fw);
-  line-height: var(--subheading-l-lh);
-  letter-spacing: var(--subheading-l-ls);
-}
+  /* Desktop - Subheading L */
+  --desk_subheading--l-ff: Bellefair;
+  --desk_subheading--l-fs: 28px;
+  --desk_subheading--l-fw: 400;
+  --desk_subheading--l-lh: auto;
+  --desk_subheading--l-ls: 0;
 
-.subheading-s {
-  font-family: var(--subheading-s-ff);
-  font-size: var(--subheading-s-fs);
-  font-weight: var(--subheading-s-fw);
-  line-height: var(--subheading-s-lh);
-  letter-spacing: var(--subheading-s-ls);
-}
+  /* Desktop - Subheading S */
+  --desk_subheading--s-ff: "Barlow Condensed";
+  --desk_subheading--s-fs: 14px;
+  --desk_subheading--s-fw: 400;
+  --desk_subheading--s-lh: auto;
+  --desk_subheading--s-ls: 2px;
 
-.nav-text {
-  font-family: var(--nav-text-ff);
-  font-size: var(--nav-text-fs);
-  font-weight: var(--nav-text-fw);
-  line-height: var(--nav-text-lh);
-  letter-spacing: var(--nav-text-ls);
-}
+  /* Desktop - Nav text */
+  --desk_nav-text-ff: "Barlow Condensed";
+  --desk_nav-text-fs: 16px;
+  --desk_nav-text-fw: 400;
+  --desk_nav-text-lh: auto;
+  --desk_nav-text-ls: 2px;
 
-.nav-text-bold {
-  font-family: var(--nav-text-b-ff);
-  font-size: var(--nav-text-b-fs);
-  font-weight: var(--nav-text-b-fw);
-  line-height: var(--nav-text-b-lh);
-  letter-spacing: var(--nav-text-b-ls);
-}
+  /* Desktop - Nav bold text */
+  --desk_nav-text-b-ff: "Barlow Condensed";
+  --desk_nav-text-b-fs: 16px;
+  --desk_nav-text-b-fw: 700;
+  --desk_nav-text-b-lh: auto;
+  --desk_nav-text-b-ls: 2px;
 
-.body-text {
-  font-family: var(--body-text-ff);
-  font-size: var(--body-text-fs);
-  font-weight: var(--body-text-fw);
-  line-height: var(--body-text-lh);
-  letter-spacing: var(--body-text-ls);
+  /* Desktop - Body text */
+  --desk_body-text-ff: Barlow;
+  --desk_body-text-fs: 18px;
+  --desk_body-text-fw: 400;
+  --desk_body-text-lh: 180%;
+  --desk_body-text-ls: 0px;
+  /* #endregion Desktop */
+
+  /* #region Tablet */
+  /* Tablet - Heading L */
+  --tab_heading-l-ff: Bellefair;
+  --tab_heading-l-fs: 80px;
+  --tab_heading-l-fw: 400;
+  --tab_heading-l-lh: auto;
+  --tab_heading-l-ls: 0;
+
+  /* Tablet - Heading M */
+  --tab_heading-m-ff: Bellefair;
+  --tab_heading-m-fs: 40px;
+  --tab_heading-m-fw: 400;
+  --tab_heading-m-lh: auto;
+  --tab_heading-m-ls: 0;
+
+  /* Tablet - Heading S */
+  --tab_heading-s-ff: Bellefair;
+  --tab_heading-s-fs: 24px;
+  --tab_heading-s-fw: 400;
+  --tab_heading-s-lh: auto;
+  --tab_heading-s-ls: 0;
+
+  /* Tablet - Heading XS */
+  --tab_heading-xs-ff: "Barlow Condensed";
+  --tab_heading-xs-fs: 20px;
+  --tab_heading-xs-fw: 400;
+  --tab_heading-xs-lh: auto;
+  --tab_heading-xs-ls: 15%;
+
+  /* Tablet - Body text */
+  --tab_body-text-ff: Barlow;
+  --tab_body-text-fs: 16px;
+  --tab_body-text-fw: 400;
+  --tab_body-text-lh: 180%;
+  --tab_body-text-ls: 0px;
+  /* #endregion Tablet */
+
+  /* #region Mobile */
+  /* Mobile - Heading XL */
+  --mob_heading-xl-ff: Bellefair;
+  --mob_heading-xl-fs: 80px;
+  --mob_heading-xl-fw: 400;
+  --mob_heading-xl-lh: auto;
+  --mob_heading-xl-ls: 0;
+
+  /* Mobile - Heading L */
+  --mob_heading-l-ff: Bellefair;
+  --mob_heading-l-fs: 56px;
+  --mob_heading-l-fw: 400;
+  --mob_heading-l-lh: auto;
+  --mob_heading-l-ls: 0;
+
+  /* Mobile - Heading M */
+  --mob_heading-m-ff: Bellefair;
+  --mob_heading-m-fs: 24px;
+  --mob_heading-m-fw: 400;
+  --mob_heading-m-lh: auto;
+  --mob_heading-m-ls: 0;
+
+  /* Mobile - Heading S */
+  --mob_heading-s-ff: Bellefair;
+  --mob_heading-s-fs: 18px;
+  --mob_heading-s-fw: 400;
+  --mob_heading-s-lh: auto;
+  --mob_heading-s-ls: 0;
+
+  /* Mobile - Heading XS */
+  --mob_heading-xs-ff: "Barlow Condensed";
+  --mob_heading-xs-fs: 16px;
+  --mob_heading-xs-fw: 400;
+  --mob_heading-xs-lh: auto;
+  --mob_heading-xs-ls: 15%;
+
+  /* Mobile - Nav text */
+  --mob_nav-text-ff: "Barlow Condensed";
+  --mob_nav-text-fs: 14px;
+  --mob_nav-text-fw: 400;
+  --mob_nav-text-lh: auto;
+  --mob_nav-text-ls: 15%;
+
+  /* Mobile - Body text */
+  --mob_body-text-ff: Barlow;
+  --mob_body-text-fs: 15px;
+  --mob_body-text-fw: 400;
+  --mob_body-text-lh: 180%;
+  --mob_body-text-ls: 0px;
+  /* #endregion Mobile */
 }
