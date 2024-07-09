@@ -1,7 +1,7 @@
 .destmain-cont {
   width: 100%;
   flex: 1;
-  padding: 40px 165px;
+  padding: 0 165px 40px 165px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -123,7 +123,7 @@
 /* Medium */
 @media screen and (max-width: 1439px) {
   .destmain-cont {
-    padding: 40px;
+    padding: 0 40px 40px 40px;
   }
 
   .destmain {
@@ -182,7 +182,7 @@
 /* Small */
 @media screen and (max-width: 767px) {
   .destmain-cont {
-    padding: 24px;
+    padding: 0 24px 24px 24px;
   }
 
   .destmain-h1 {

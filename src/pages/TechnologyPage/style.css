@@ -15,7 +15,7 @@
   width: 100%;
   height: 100%;
   flex: 1;
-  padding: 48px 0 48px 165px;
+  padding: 48px 0 0 165px;
 }
 
 .techpage-scrollbar {
@@ -32,6 +32,7 @@
 .techpage-section {
   display: flex;
   flex-direction: column;
+  margin-bottom: 48px;
 }
 
 /* #region heading 2 */

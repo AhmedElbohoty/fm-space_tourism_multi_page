@@ -1,6 +1,7 @@
 .crewpage-main {
-  width: 100%;
-  min-height: 100%;
+  width: 100dvw;
+  height: 100dvh;
+  max-height: 100dvh;
   display: flex;
   background-image: url("/assets/crew/background-crew-desktop.jpg");
   background-repeat: no-repeat;
@@ -10,9 +11,14 @@
   padding-top: 136px;
 }
 
+.crewpage-scrollbar {
+  margin-top: 48px;
+  max-height: 100%;
+}
+
 .crewpage-cont {
   width: 100%;
-  padding: 48px 165px;
+  padding: 0 165px 48px 165px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -120,7 +126,11 @@
 
   .crewpage-cont {
     width: 100%;
-    padding: 40px;
+    padding: 0 40px 40px 40px;
+  }
+
+  .crewpage-scrollbar {
+    margin-top: 40px;
   }
 
   .crewpage-content {
@@ -188,7 +198,11 @@
   }
 
   .crewpage-cont {
-    padding: 24px;
+    padding: 0 24px 24px 24px;
+  }
+
+  .crewpage-scrollbar {
+    margin-top: 24px;
   }
 
   .crewpage-content {

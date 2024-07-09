@@ -1,7 +1,10 @@
 .destpage {
-  width: 100%;
-  min-height: 100%;
+  width: 100dvw;
+  height: 100dvh;
+  max-height: 100dvh;
   display: flex;
+  align-items: center;
+  justify-content: center;
   background-image: url("/assets/destination/background-destination-desktop.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -10,10 +13,16 @@
   padding-top: 136px;
 }
 
+.destpage-scrollbar {
+  max-height: 100%;
+  margin-top: 40px;
+}
+
 /* Medium */
 @media screen and (max-width: 1439px) {
   .destpage {
     padding-top: 96px;
+    align-items: flex-start;
     background-image: url("/assets/destination/background-destination-tablet.jpg");
   }
 }
@@ -23,5 +32,9 @@
   .destpage {
     padding-top: 88px;
     background-image: url("/assets/destination/background-destination-mobile.jpg");
+  }
+
+  .destpage-scrollbar {
+    margin-top: 24px;
   }
 }
