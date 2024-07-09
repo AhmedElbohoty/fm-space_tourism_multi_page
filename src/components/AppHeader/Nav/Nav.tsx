@@ -30,7 +30,7 @@ function Nav() {
   }
 
   return (
-    <nav className="apphead-nav">
+    <nav className="apphead-nav" role="navigation" aria-label="primary">
       <LinkWrapper to="/" index="00" label="HOME" isActive={pathname === "/"} />
       <LinkWrapper
         to="/destination"

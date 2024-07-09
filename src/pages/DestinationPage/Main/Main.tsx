@@ -29,22 +29,22 @@ function Main() {
   return (
     <div className="destmain-cont">
       <main className="destmain">
-        <h1 className="destmain-h1">
+        <h2 className="destmain-h1">
           <span className="destmain-h1-index">01 </span>
           <span>PICK YOUR DESTINATION</span>
-        </h1>
+        </h2>
 
         <div className="destmain-content">
           <div className="destmain-img-cont">
             <img src={image} alt={alt} className="destmain-img" />
           </div>
 
-          <div>
+          <section>
             <div className="destmain-info">
               <Nav />
 
               <div>
-                <h2 className="destmain-name">{name}</h2>
+                <h1 className="destmain-name">{name}</h1>
                 <p className="destmain-desc">{description}</p>
               </div>
 
@@ -62,7 +62,7 @@ function Main() {
                 </div>
               </div>
             </div>
-          </div>
+          </section>
         </div>
       </main>
     </div>

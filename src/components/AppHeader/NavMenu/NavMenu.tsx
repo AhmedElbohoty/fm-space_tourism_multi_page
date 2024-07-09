@@ -27,7 +27,7 @@ function NavMenu({ close }: NavMenuProp) {
 
   return (
     <dialog ref={dialogRef} className="navmenu-dialog" onClick={onClickDialog}>
-      <nav className="navmenu-nav">
+      <nav className="navmenu-nav" role="navigation" aria-label="primary">
         <div className="navmenu-header">
           <div className="navmenu-header-close" onClick={close}>
             <CloseIcon />

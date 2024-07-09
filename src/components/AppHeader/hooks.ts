@@ -1,7 +1,11 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { APP_NAV_MENU_HS } from "services/history_states";
-import { useHistoryStateProp, useLocationPathname } from "services/hooks";
+import {
+  useHistoryStateProp,
+  useLocationHash,
+  useLocationPathname,
+} from "services/hooks";
 
 import { isMobile } from "services/utils";
 
@@ -16,6 +20,7 @@ export function useNavMenuLogic() {
    */
   const navigate = useNavigate();
   const pathname = useLocationPathname();
+  const hash = useLocationHash();
   const histProp = useHistoryStateProp(APP_NAV_MENU_HS);
   const [isOpened, setIsOpened] = useState(false);
 
@@ -23,7 +28,7 @@ export function useNavMenuLogic() {
     setIsOpened(true);
 
     if (isMobile) {
-      navigate(pathname, { state: { [APP_NAV_MENU_HS]: true } });
+      navigate(pathname + hash, { state: { [APP_NAV_MENU_HS]: true } });
     }
   }
 
@@ -31,7 +36,7 @@ export function useNavMenuLogic() {
     setIsOpened(false);
 
     if (isMobile) {
-      navigate(pathname, { replace: true });
+      navigate(pathname + hash, { replace: true });
     }
   }
 

@@ -7,7 +7,7 @@ import "./style.css";
 
 function Nav() {
   return (
-    <nav className="destnav">
+    <nav className="destnav" role="navigation" aria-label="secondary">
       <LinkWrapper to="#moon" label="MOON" />
       <LinkWrapper to="#mars" label="MARS" />
       <LinkWrapper to="#europa" label="EUROPA" />
