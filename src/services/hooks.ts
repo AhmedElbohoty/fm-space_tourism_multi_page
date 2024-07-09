@@ -11,3 +11,9 @@ export function useHistoryStateProp(prop: string) {
 
   return location.state?.[prop];
 }
+
+export function useLocationHash() {
+  const location = useLocation();
+
+  return location.hash;
+}

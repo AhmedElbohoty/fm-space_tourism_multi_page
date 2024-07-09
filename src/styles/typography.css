@@ -36,18 +36,18 @@
   --desk_heading-xs-ls: 4px;
 
   /* Desktop - Subheading L */
-  --desk_subheading--l-ff: Bellefair;
-  --desk_subheading--l-fs: 28px;
-  --desk_subheading--l-fw: 400;
-  --desk_subheading--l-lh: auto;
-  --desk_subheading--l-ls: 0;
+  --desk_subheading-l-ff: Bellefair;
+  --desk_subheading-l-fs: 28px;
+  --desk_subheading-l-fw: 400;
+  --desk_subheading-l-lh: auto;
+  --desk_subheading-l-ls: 0;
 
   /* Desktop - Subheading S */
-  --desk_subheading--s-ff: "Barlow Condensed";
-  --desk_subheading--s-fs: 14px;
-  --desk_subheading--s-fw: 400;
-  --desk_subheading--s-lh: auto;
-  --desk_subheading--s-ls: 2px;
+  --desk_subheading-s-ff: "Barlow Condensed";
+  --desk_subheading-s-fs: 14px;
+  --desk_subheading-s-fw: 400;
+  --desk_subheading-s-lh: auto;
+  --desk_subheading-s-ls: 2px;
 
   /* Desktop - Nav text */
   --desk_nav-text-ff: "Barlow Condensed";

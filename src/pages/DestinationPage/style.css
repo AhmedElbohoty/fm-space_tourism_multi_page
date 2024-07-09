@@ -1,0 +1,27 @@
+.destpage {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  background-image: url("/src//assets/destination/background-destination-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--very-dark-navy);
+  background-position: center;
+  padding-top: 136px;
+}
+
+/* Medium */
+@media screen and (max-width: 1439px) {
+  .destpage {
+    padding-top: 96px;
+    background-image: url("/src//assets/destination/background-destination-tablet.jpg");
+  }
+}
+
+/* Small */
+@media screen and (max-width: 767px) {
+  .destpage {
+    padding-top: 88px;
+    background-image: url("/src//assets/destination/background-destination-mobile.jpg");
+  }
+}
