@@ -7,11 +7,15 @@ import "./style.css";
 
 function Nav() {
   return (
-    <nav className="destnav" role="navigation" aria-label="secondary">
-      <LinkWrapper to="#moon" label="MOON" />
-      <LinkWrapper to="#mars" label="MARS" />
-      <LinkWrapper to="#europa" label="EUROPA" />
-      <LinkWrapper to="#titan" label="TITAN" />
+    <nav className="destnav" aria-label="secondary">
+      <LinkWrapper to="#moon" label="MOON" ariaLabel="Explore moon page" />
+      <LinkWrapper to="#mars" label="MARS" ariaLabel="Explore mars page" />
+      <LinkWrapper
+        to="#europa"
+        label="EUROPA"
+        ariaLabel="Explore europa page"
+      />
+      <LinkWrapper to="#titan" label="TITAN" ariaLabel="Explore titan page" />
     </nav>
   );
 }
@@ -19,13 +23,19 @@ function Nav() {
 interface LinkWrapperProp {
   to: To;
   label: string;
+  ariaLabel: string;
 }
 
-function LinkWrapper({ to, label }: LinkWrapperProp) {
+function LinkWrapper({ to, label, ariaLabel }: LinkWrapperProp) {
   const hash = useLocationHash();
 
   return (
-    <Link to={to} className="destnav-link" data-active={hash === to}>
+    <Link
+      to={to}
+      className="destnav-link"
+      data-active={hash === to}
+      aria-label={ariaLabel}
+    >
       {label}
     </Link>
   );

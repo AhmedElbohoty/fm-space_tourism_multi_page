@@ -11,7 +11,7 @@ function AppHeader() {
   return (
     <header className="appheader">
       <div className="appheader-logo-cont">
-        <Link className="appheader-logo" to="/">
+        <Link className="appheader-logo" to="/" aria-label="The app logo">
           <Logo />
         </Link>
         <span className="appheader-logo-line" />

@@ -48,7 +48,7 @@
   letter-spacing: var(--desk_body-text-ls);
 }
 
-.homemain-explore-btn {
+.homemain-explore-link {
   position: relative;
   width: 272px;
   height: 272px;
@@ -56,6 +56,9 @@
   background-color: var(--white);
   color: var(--very-dark-navy);
   text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: var(--desk_heading-s-ff);
   font-size: var(--desk_heading-s-fs);
   font-weight: var(--desk_heading-s-fw);
@@ -65,7 +68,7 @@
 }
 
 @media (hover: hover) {
-  .homemain-explore-btn:before {
+  .homemain-explore-link:before {
     content: "";
     position: absolute;
     top: 0;
@@ -82,7 +85,7 @@
     pointer-events: none;
   }
 
-  .homemain-explore-btn:hover:before {
+  .homemain-explore-link:hover:before {
     transform: scale(1.6);
   }
 
@@ -132,7 +135,7 @@
     padding: 24px;
   }
 
-  .homemain-explore-btn {
+  .homemain-explore-link {
     width: 144px;
     height: 144px;
     font-family: var(--mob_heading-s-ff);

@@ -27,7 +27,7 @@ function NavMenu({ close }: NavMenuProp) {
 
   return (
     <dialog ref={dialogRef} className="navmenu-dialog" onClick={onClickDialog}>
-      <nav className="navmenu-nav" role="navigation" aria-label="primary">
+      <nav className="navmenu-nav" aria-label="primary">
         <div className="navmenu-header">
           <div className="navmenu-header-close" onClick={close}>
             <CloseIcon />
@@ -40,24 +40,28 @@ function NavMenu({ close }: NavMenuProp) {
             index="00"
             label="HOME"
             isActive={pathname === "/"}
+            ariaLabel="Link to home page"
           />
           <MenuLinkWrapper
             to="/destination"
             index="01"
             label="DESTINATION"
             isActive={pathname === "/destination"}
+            ariaLabel="Link to destination page"
           />
           <MenuLinkWrapper
             to="/crew"
             index="02"
             label="CREW"
             isActive={pathname === "/crew"}
+            ariaLabel="Link to crew page"
           />
           <MenuLinkWrapper
             to="/technology"
             index="03"
             label="TECHNOLOGY"
             isActive={pathname === "/technology"}
+            ariaLabel="Link to technology page"
           />
         </div>
       </nav>
@@ -70,11 +74,23 @@ interface MenuLinkWrapperProp {
   index: string;
   label: string;
   isActive: boolean;
+  ariaLabel: string;
 }
 
-function MenuLinkWrapper({ to, index, label, isActive }: MenuLinkWrapperProp) {
+function MenuLinkWrapper({
+  to,
+  index,
+  label,
+  isActive,
+  ariaLabel,
+}: MenuLinkWrapperProp) {
   return (
-    <Link to={to} className="navmenu-link" data-active={isActive}>
+    <Link
+      to={to}
+      className="navmenu-link"
+      data-active={isActive}
+      aria-label={ariaLabel}
+    >
       <span className="navmenu-link-index">{index}</span>
       <span className="navmenu-link-label">{label}</span>
     </Link>

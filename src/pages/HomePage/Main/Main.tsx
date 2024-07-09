@@ -18,8 +18,12 @@ function Main() {
           </p>
         </div>
 
-        <Link to="/destination" className="homemain-explore-link">
-          <button className="homemain-explore-btn heading-s">Explore</button>
+        <Link
+          to="/destination"
+          className="homemain-explore-link"
+          aria-label="Explore destinations"
+        >
+          Explore
         </Link>
       </div>
     </main>
