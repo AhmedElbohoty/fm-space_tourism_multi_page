@@ -17,6 +17,12 @@
   transition: border-bottom-color var(--trans-timing-func) var(--trans-duration);
 }
 
+@media (hover: hover) {
+  .destnav-link:hover {
+    border-block-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
 .destnav-link[data-active="true"] {
   border-bottom-color: var(--white);
 }

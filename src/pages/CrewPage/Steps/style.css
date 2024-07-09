@@ -16,6 +16,12 @@
   cursor: pointer;
 }
 
+@media (hover: hover) {
+  .crewsteps-dot:hover {
+    opacity: 0.5;
+  }
+}
+
 .crewsteps-dot[data-active="true"] {
   opacity: 1;
 }

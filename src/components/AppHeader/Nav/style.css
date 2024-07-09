@@ -26,6 +26,12 @@
   transition: border-bottom-color var(--trans-timing-func) var(--trans-duration);
 }
 
+@media (hover: hover) {
+  .apphead-nav-link:hover {
+    border-block-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
 .apphead-nav-link[data-active="true"] {
   border-bottom-color: var(--white);
 }
