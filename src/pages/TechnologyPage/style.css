@@ -1,0 +1,256 @@
+.techpage-main {
+  width: 100dvw;
+  height: 100dvh;
+  min-height: 100dvh;
+  display: flex;
+  background-image: url("/assets/technology/background-technology-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--very-dark-navy);
+  background-position: center;
+  padding-top: 136px;
+}
+
+.techpage-cont {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  padding: 48px 0 48px 165px;
+}
+
+.techpage-scrollbar {
+  width: 1275px;
+  height: 100%;
+  max-height: 100%;
+  margin-left: auto;
+}
+
+.techpage-scrollbar > .os-scrollbar {
+  --os-size: 0;
+}
+
+.techpage-section {
+  display: flex;
+  flex-direction: column;
+}
+
+/* #region heading 2 */
+.techpage-h2 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+  color: var(--white);
+  font-family: var(--desk_heading-xs-ff);
+  font-size: var(--desk_heading-xs-fs);
+  font-weight: var(--desk_heading-xs-fw);
+  line-height: var(--desk_heading-xs-lh);
+  letter-spacing: var(--desk_heading-xs-ls);
+}
+
+.techpage-h2-index {
+  opacity: 0.25;
+  font-weight: 700;
+}
+/* #endregion heading 2 */
+
+/* #region content */
+.techpage-content {
+  height: 734px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+.techpage-steps-cont {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+}
+
+.techpage-img-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.techpage-img {
+  width: 608px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.techpage-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.techpage-role {
+  height: 37px;
+  opacity: 0.5;
+  color: var(--white);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-family: var(--desk_heading-s-ff);
+  font-size: var(--desk_heading-s-fs);
+  font-weight: var(--desk_heading-s-fw);
+  line-height: var(--desk_heading-s-lh);
+  letter-spacing: var(--desk_heading-s-ls);
+}
+
+.techpage-name {
+  height: 64px;
+  color: var(--white);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-family: var(--desk_heading-m-ff);
+  font-size: var(--desk_heading-m-fs);
+  font-weight: var(--desk_heading-m-fw);
+  line-height: var(--desk_heading-m-lh);
+  letter-spacing: var(--desk_heading-m-ls);
+}
+
+.techpage-desc {
+  color: var(--white);
+  font-family: var(--desk_body-text-ff);
+  font-size: var(--desk_body-text-fs);
+  font-weight: var(--desk_body-text-fw);
+  line-height: var(--desk_body-text-lh);
+  letter-spacing: var(--desk_body-text-ls);
+}
+/* #endregion content */
+
+/* Medium */
+@media screen and (max-width: 1439px) {
+  .techpage-main {
+    padding-top: 96px;
+    background-image: url("/assets/technology/background-technology-tablet.jpg");
+  }
+
+  .techpage-cont {
+    padding: 40px 0;
+  }
+
+  .techpage-scrollbar {
+    width: 100%;
+  }
+
+  .techpage-h2 {
+    margin-left: 40px;
+    font-family: var(--tab_heading-xs-ff);
+    font-size: var(--tab_heading-xs-fs);
+    font-weight: var(--tab_heading-xs-fw);
+    line-height: var(--tab_heading-xs-lh);
+    letter-spacing: var(--tab_heading-xs-ls);
+  }
+
+  .techpage-content {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .techpage-steps-cont {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .techpage-img {
+    margin-top: 64px;
+    width: 100%;
+    height: 357px;
+  }
+
+  .techpage-info {
+    align-items: center;
+    margin: 0 40px;
+  }
+
+  .techpage-role {
+    height: 28px;
+    margin-bottom: 16px;
+    font-family: var(--tab_heading-s-ff);
+    font-size: var(--tab_heading-s-fs);
+    font-weight: var(--tab_heading-s-fw);
+    line-height: var(--tab_heading-s-lh);
+    letter-spacing: var(--tab_heading-s-ls);
+  }
+
+  .techpage-name {
+    height: 46px;
+    font-family: var(--tab_heading-m-ff);
+    font-size: var(--tab_heading-m-fs);
+    font-weight: var(--tab_heading-m-fw);
+    line-height: var(--tab_heading-m-lh);
+    letter-spacing: var(--tab_heading-m-ls);
+  }
+
+  .techpage-desc {
+    text-align: center;
+    font-family: var(--tab_body-text-ff);
+    font-size: var(--tab_body-text-fs);
+    font-weight: var(--tab_body-text-fw);
+    line-height: var(--tab_body-text-lh);
+    letter-spacing: var(--tab_body-text-ls);
+  }
+}
+
+/* Small */
+@media screen and (max-width: 767px) {
+  .techpage-main {
+    padding-top: 88px;
+    background-image: url("/assets/technology/background-technology-mobile.jpg");
+  }
+
+  .techpage-cont {
+    padding: 24px 0;
+  }
+
+  .techpage-h2 {
+    margin: 0;
+    font-family: var(--mob_heading-xs-ff);
+    font-size: var(--mob_heading-xs-fs);
+    font-weight: var(--mob_heading-xs-fw);
+    line-height: var(--mob_heading-xs-lh);
+    letter-spacing: var(--mob_heading-xs-ls);
+  }
+
+  .techpage-section {
+    align-items: center;
+  }
+
+  .techpage-info {
+    margin: 0 24px;
+  }
+
+  .techpage-role {
+    height: 21px;
+    margin-bottom: 8px;
+    font-family: var(--mob_heading-s-ff);
+    font-size: var(--mob_heading-s-fs);
+    font-weight: var(--mob_heading-s-fw);
+    line-height: var(--mob_heading-s-lh);
+    letter-spacing: var(--mob_heading-s-ls);
+  }
+
+  .techpage-name {
+    height: 28px;
+    font-family: var(--mob_heading-m-ff);
+    font-size: var(--mob_heading-m-fs);
+    font-weight: var(--mob_heading-m-fw);
+    line-height: var(--mob_heading-m-lh);
+    letter-spacing: var(--mob_heading-m-ls);
+  }
+
+  .techpage-desc {
+    font-family: var(--mob_body-text-ff);
+    font-size: var(--mob_body-text-fs);
+    font-weight: var(--mob_body-text-fw);
+    line-height: var(--mob_body-text-lh);
+    letter-spacing: var(--mob_body-text-ls);
+  }
+}
