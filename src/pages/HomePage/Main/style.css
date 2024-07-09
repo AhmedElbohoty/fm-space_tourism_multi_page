@@ -54,7 +54,7 @@
   height: 272px;
   border-radius: 50%;
   background-color: var(--white);
-  color: rgba(11, 13, 23, 0.5);
+  color: var(--very-dark-navy);
   text-transform: uppercase;
   font-family: var(--desk_heading-s-ff);
   font-size: var(--desk_heading-s-fs);
