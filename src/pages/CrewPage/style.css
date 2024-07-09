@@ -1,0 +1,241 @@
+.crewpage-main {
+  width: 100%;
+  min-height: 100%;
+  display: flex;
+  background-image: url("/assets/crew/background-crew-desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--very-dark-navy);
+  background-position: center;
+  padding-top: 136px;
+}
+
+.crewpage-cont {
+  width: 100%;
+  padding: 48px 165px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crewpage-content {
+  width: 1110px;
+  height: 792px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* #region heading 2 */
+.crewpage-h2 {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 24px;
+  color: var(--white);
+  font-family: var(--desk_heading-xs-ff);
+  font-size: var(--desk_heading-xs-fs);
+  font-weight: var(--desk_heading-xs-fw);
+  line-height: var(--desk_heading-xs-lh);
+  letter-spacing: var(--desk_heading-xs-ls);
+}
+
+.crewpage-h2-index {
+  opacity: 0.25;
+  font-weight: 700;
+}
+/* #endregion heading 2 */
+
+.crewpage-sections {
+  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 32px;
+}
+
+/* #region info */
+.crewpage-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.crewpage-role {
+  height: 37px;
+  opacity: 0.5;
+  color: var(--white);
+  margin-bottom: 16px;
+  text-transform: uppercase;
+  font-family: var(--desk_heading-s-ff);
+  font-size: var(--desk_heading-s-fs);
+  font-weight: var(--desk_heading-s-fw);
+  line-height: var(--desk_heading-s-lh);
+  letter-spacing: var(--desk_heading-s-ls);
+}
+
+.crewpage-name {
+  height: 64px;
+  color: var(--white);
+  margin-bottom: 24px;
+  text-transform: uppercase;
+  font-family: var(--desk_heading-m-ff);
+  font-size: var(--desk_heading-m-fs);
+  font-weight: var(--desk_heading-m-fw);
+  line-height: var(--desk_heading-m-lh);
+  letter-spacing: var(--desk_heading-m-ls);
+}
+
+.crewpage-bio {
+  color: var(--white);
+  font-family: var(--desk_body-text-ff);
+  font-size: var(--desk_body-text-fs);
+  font-weight: var(--desk_body-text-fw);
+  line-height: var(--desk_body-text-lh);
+  letter-spacing: var(--desk_body-text-ls);
+}
+/* #endregion info */
+
+/* #region image */
+.crewpage-img-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.crewpage-img {
+  width: 540px;
+  max-width: 540px;
+  height: 676px;
+  max-height: 676px;
+  -webkit-mask-image: linear-gradient(black, black, black, transparent);
+  mask-image: linear-gradient(black, black, black, transparent);
+}
+/* #endregion image */
+
+/* Medium */
+@media screen and (max-width: 1439px) {
+  .crewpage-main {
+    padding-top: 96px;
+    background-image: url("/assets/crew/background-crew-tablet.jpg");
+  }
+
+  .crewpage-cont {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .crewpage-content {
+    height: 100%;
+    width: 100%;
+    margin: 0 88px;
+  }
+
+  .crewpage-h2 {
+    font-family: var(--tab_heading-xs-ff);
+    font-size: var(--tab_heading-xs-fs);
+    font-weight: var(--tab_heading-xs-fw);
+    line-height: var(--tab_heading-xs-lh);
+    letter-spacing: var(--tab_heading-xs-ls);
+  }
+
+  .crewpage-sections {
+    grid-template-columns: 1fr;
+  }
+
+  .crewpage-info {
+    align-items: center;
+    min-height: 305px;
+  }
+
+  .crewpage-role {
+    height: 28px;
+    margin-bottom: 16px;
+    font-family: var(--tab_heading-s-ff);
+    font-size: var(--tab_heading-s-fs);
+    font-weight: var(--tab_heading-s-fw);
+    line-height: var(--tab_heading-s-lh);
+    letter-spacing: var(--tab_heading-s-ls);
+  }
+
+  .crewpage-name {
+    height: 46px;
+    font-family: var(--tab_heading-m-ff);
+    font-size: var(--tab_heading-m-fs);
+    font-weight: var(--tab_heading-m-fw);
+    line-height: var(--tab_heading-m-lh);
+    letter-spacing: var(--tab_heading-m-ls);
+  }
+
+  .crewpage-bio {
+    text-align: center;
+    font-family: var(--tab_body-text-ff);
+    font-size: var(--tab_body-text-fs);
+    font-weight: var(--tab_body-text-fw);
+    line-height: var(--tab_body-text-lh);
+    letter-spacing: var(--tab_body-text-ls);
+  }
+
+  .crewpage-img {
+    width: 450px;
+    height: 560px;
+  }
+}
+
+/* Small */
+@media screen and (max-width: 767px) {
+  .crewpage-main {
+    padding-top: 88px;
+    background-image: url("/assets/crew/background-crew-mobile.jpg");
+  }
+
+  .crewpage-cont {
+    padding: 24px;
+  }
+
+  .crewpage-content {
+    align-items: center;
+  }
+
+  .crewpage-h2 {
+    font-family: var(--mob_heading-xs-ff);
+    font-size: var(--mob_heading-xs-fs);
+    font-weight: var(--mob_heading-xs-fw);
+    line-height: var(--mob_heading-xs-lh);
+    letter-spacing: var(--mob_heading-xs-ls);
+  }
+
+  .crewpage-info {
+    min-height: 320px;
+  }
+
+  .crewpage-role {
+    height: 21px;
+    margin-bottom: 8px;
+    font-family: var(--mob_heading-s-ff);
+    font-size: var(--mob_heading-s-fs);
+    font-weight: var(--mob_heading-s-fw);
+    line-height: var(--mob_heading-s-lh);
+    letter-spacing: var(--mob_heading-s-ls);
+  }
+
+  .crewpage-name {
+    height: 28px;
+    font-family: var(--mob_heading-m-ff);
+    font-size: var(--mob_heading-m-fs);
+    font-weight: var(--mob_heading-m-fw);
+    line-height: var(--mob_heading-m-lh);
+    letter-spacing: var(--mob_heading-m-ls);
+  }
+
+  .crewpage-bio {
+    font-family: var(--mob_body-text-ff);
+    font-size: var(--mob_body-text-fs);
+    font-weight: var(--mob_body-text-fw);
+    line-height: var(--mob_body-text-lh);
+    letter-spacing: var(--mob_body-text-ls);
+  }
+
+  .crewpage-img {
+    width: 270px;
+    height: 320px;
+  }
+}
